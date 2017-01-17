@@ -115,7 +115,10 @@ namespace VariableNaming
             and 10 mini marshmallows.How many marshmallows did she use
             altogether?
             */
-
+            
+            int largeMarshmallows = 8;
+            int minieMarshmallows = 10;
+            int totalMarshmallowsUsed = largeMarshmallows + minieMarshmallows;
             /*
             14. At Mrs. Hilt's house, there was 29 inches of snow, and Brecknock
             Elementary School received 17 inches of snow. How much more snow
