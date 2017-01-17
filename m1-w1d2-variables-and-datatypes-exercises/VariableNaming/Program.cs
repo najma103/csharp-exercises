@@ -14,50 +14,79 @@ namespace VariableNaming
             1. 4 birds are sitting on a branch. 1 flies away. How many birds are left on
             the branch? 
             */
+            int birdsSitting = 4;
+            int birdsThatFlewAway = 1;
+            int remainingBirds = birdsSitting - birdsThatFlewAway;
+            Console.WriteLine("Remaining birds are " + remainingBirds);
 
             /* 
             2. There are 6 birds and 3 nests. How many more birds are there than
             nests? 
             */
+            int birds = 6;
+            int nests = 3;
+            int birdsMinusNests = birds - nests;
+            Console.WriteLine("There are " + birdsMinusNests + " more birds than Nests");
 
             /* 
             3. 3 raccoons are playing in the woods. 2 go home to eat dinner. How
             many raccoons are left in the woods? 
             */
 
+            int numOfRaccoonsPlaying = 3;
+            int numOfRaccoonsWentHome = 2;
+            int numOfRaccoonsStillPlaying = numOfRaccoonsPlaying - numOfRaccoonsWentHome;
+
             /* 
             4. There are 5 flowers and 3 bees. How many less bees than flowers? 
             */
+            int numOfFlowers = 5;
+            int numOfBees = 3;
+            int flowersMinusBees = numOfFlowers - numOfBees;
 
             /* 
             5. 1 lonely pigeon was eating breadcrumbs. Another pigeon came to eat
             breadcrumbs, too. How many pigeons are eating breadcrumbs now? 
             */
+            int onePigeonEating = 1;
+            int totalPigeonsEating = onePigeonEating++;
 
             /* 
             6. 3 owls were sitting on the fence. 2 more owls joined them. How many
             owls are on the fence now? 
             */
-
+            int numOfOwlsSitting = 3;
+            int totalOwls = numOfOwlsSitting + 2;
             /* 
             7. 2 beavers were working on their home. 1 went for a swim. How many
             beavers are still working on their home? 
             */
-
+            int beaversWorking = 2;
+            int beaversLeftForSwimming = 1;
+            int beaversStillWorking = beaversWorking - beaversLeftForSwimming;
             /* 
             8. 2 toucans are sitting on a tree limb. 1 more toucan joins them. How
             many toucans in all? 
             */
+            int numOfToucansSitting = 2;
+            int totalToucans = numOfToucansSitting + 1;
 
             /* 
             9. There are 4 squirrels in a tree with 2 nuts. How many more squirrels
             are there than nuts? 
             */
-
+            int squirrels = 4;
+            int nuts = 2;
+            int squirrelsMinusNuts = squirrels - nuts;
             /* 
             10. Mrs. Hilt found a quarter, 1 dime, and 2 nickels. How much money did
             she find? 
             */
+            double quarter = .25;
+            double dime = .10;
+            double nickel = .05;
+
+            double totalMoney = quarter + dime + (nickel * 2);
 
             /* 
             11. Mrs. Hilt's favorite first grade classes are baking muffins. Mrs. Brier's
@@ -66,10 +95,20 @@ namespace VariableNaming
             grade bake in all? 
             */
 
+            int brierClassMuffings = 18;
+            int macAdamsClassMuffings = 20;
+            int flannerClassMuffings = 17;
+
+            int totalBakedMuffins = brierClassMuffings + macAdamsClassMuffings + flannerClassMuffings;
+
             /*
             12. Mrs. Hilt bought a yoyo for 24 cents and a whistle for 14 cents. How
             much did she spend in all for the two toys?
             */
+
+            double yoyoPrice = .24;          
+            double whistlePrice = .14;
+            double totalForToys = yoyoPrice + whistlePrice;
 
             /*
             13. Mrs. Hilt made 5 Rice Krispie Treats. She used 8 large marshmallows
